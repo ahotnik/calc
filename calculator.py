@@ -15,4 +15,3 @@ if operation == '/' and b != 0:
 calculate.setdefault(operation, "Error operation")
 
 print(calculate[operation])
-ahahah
