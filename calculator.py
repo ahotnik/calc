@@ -12,6 +12,4 @@ operation = str(input("The operation: "))
 if operation == '/' and b != 0:
 	calculate['/'] = a/b
 
-calculate.setdefault(operation, "Error operation")
-
-print(calculate[operation])
+print(calculate.get(operation))
